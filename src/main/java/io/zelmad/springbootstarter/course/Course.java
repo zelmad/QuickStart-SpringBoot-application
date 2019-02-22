@@ -7,6 +7,7 @@ import javax.persistence.ManyToOne;
 import io.zelmad.springbootstarter.topic.Topic;
 
 @Entity
+@Table(name="TABLE")
 public class Course {
     
 	@Id
